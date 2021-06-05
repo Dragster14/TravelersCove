@@ -1,0 +1,89 @@
+/* ------------------ */
+/* ---- COULEURS ---- */
+/* ------------------ */
+
+/* Color Theme Swatches in Hex */
+.color-theme_8-1-hex { color: #0D2E41; }
+.color-theme_8-2-hex { color: #00798A; }
+.color-theme_8-3-hex { color: #44AD9F; }
+.color-theme_8-4-hex { color: #F8AF2C; }
+.color-theme_8-5-hex { color: #FA6135; }
+
+/* Color Theme Swatches in RGBA */
+.color-theme_8-1-rgba { color: rgba(13, 46, 65, 1); }
+.color-theme_8-2-rgba { color: rgba(0, 121, 138, 1); }
+.color-theme_8-3-rgba { color: rgba(68, 173, 159, 1); }
+.color-theme_8-4-rgba { color: rgba(248, 175, 44, 1); }
+.color-theme_8-5-rgba { color: rgba(250, 97, 53, 1); }
+
+
+/* ---------------- */
+/* ---- POLICE ---- */
+/* ---------------- */
+
+/* Police BTTTRIAL (Sea of Thieves) */
+@font-face {
+    font-family: 'sot';
+    src: url('Ressources/Police/BTTTRIAL.otf') format('OpenType');
+}
+
+
+/* ----------------------------------------------------------------- */
+/* ----------------------------------------------------------------- */
+/* ----------------------------------------------------------------- */
+
+
+/* ------------------ */
+/* ---- GENERALS ---- */
+/* ------------------ */
+
+/* Marges max du site + alignement au centre + police d'écriture */
+body {
+    max-width: 2000px;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #0D2E41;
+}
+
+
+/* ---------------- */
+/* ---- HEADER ---- */
+/* ---------------- */
+
+/* Police titre + taille + espacement + couleur */
+.police_sot {
+    font-family: 'sot', Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5em;
+    word-spacing: 0.2em;
+    color: #F8AF2C!important;
+}
+
+.police_sot:hover {
+    color: #F8AF2C;
+}
+
+/* Couleur des liens de navigation + animation */
+.nav_lien {
+    color: #0D2E41!important;
+    font-size: 1.2em;
+}
+
+.nav_lien:hover {
+    color: #0D2E41!important;
+}
+
+.nav_lien:focus {
+    color: #0D2E41!important;
+}
+
+
+/* -------------------------------- */
+/* ---- HEADER - MEDIA QUERIES ---- */
+/* -------------------------------- */
+
+/* Marge droite nav header */
+@media all and (min-width: 992px) {
+    .nav_margin_right {
+        margin-right: 80px;
+    }
+}
