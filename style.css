@@ -49,7 +49,12 @@ body {
 }
 
 .police_sot {
-    font-family: 'sot', Georgia, 'Times New Roman', Times, serif;;
+    font-family: 'sot', Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+.span_size {
+    font-size: 1.3em;
 }
 
 
@@ -195,10 +200,6 @@ h2 {
     font-size: 2.5em;
 }
 
-.span_size {
-    font-size: 1.3em;
-}
-
 
 /* ----------------- */
 /* ---- ARTICLE ---- */
@@ -273,6 +274,20 @@ h2 {
 
 .zoom:hover {
     transform: scale(1.03);
+}
+
+
+/* ---------------- */
+/* ---- FOOTER ---- */
+/* ---------------- */
+
+footer {
+    background-color: #f8f9fa;
+}
+
+.footer_copyright {
+    padding: 20px 0px;
+    font-size: 0.8em;
 }
 
 
@@ -403,5 +418,12 @@ h2 {
     .card {
         width: 80%;
         margin: auto;
+    }
+}
+
+
+@media all and (max-width: 575px) {
+    .article_intro {
+        max-width: 95%;
     }
 }
