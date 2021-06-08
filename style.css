@@ -276,6 +276,31 @@ h2 {
     transform: scale(1.03);
 }
 
+#mdp {
+    border: solid 1px #f8f9fa;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    padding: 8px;
+    color: #FA6135;
+}
+
+.btn-mdp {
+    color: #f8f9fa;
+    border: solid 1px #f8f9fa;
+    border-radius: 5px;
+    background-color: #0D2E41;
+    padding: 10px;
+}
+
+.btn-mdp:hover {
+    color: #FA6135;
+    border: solid 1px #FA6135;
+}
+
+.article_mdp {
+    display: none;
+}
+
 
 /* ---------------- */
 /* ---- FOOTER ---- */
@@ -288,6 +313,12 @@ footer {
 .footer_copyright {
     padding: 20px 0px;
     font-size: 0.8em;
+}
+
+.bottom-fixe {
+    position: absolute;
+    bottom: 0;
+    background-color: #f8f9fa;
 }
 
 
