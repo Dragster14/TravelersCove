@@ -306,7 +306,7 @@ h2 {
 }
 
 .img-horizontal-nikon {
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
@@ -315,8 +315,13 @@ h2 {
     height: auto;
 }
 
-.img-vertical-BGF {
-    width: 44.1%;
+.img-vertical-samsung {
+    width: 49.8%;
+    height: auto;
+}
+
+.img-vertical-beauval {
+    width: 88.5%;
     height: auto;
 }
 
@@ -475,8 +480,13 @@ footer {
         height: auto;
     }
     
-    .img-vertical-BGF {
+    .img-vertical-samsung {
         width: 37.35%;
+        height: auto;
+    }
+
+    .img-vertical-beauval {
+        width: 66.4%;
         height: auto;
     }
 }
