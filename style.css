@@ -335,6 +335,11 @@ h2 {
     height: auto;
 }
 
+.img-vertical-disney19-1 {
+    width: 88.4%;
+    height: auto;
+}
+
 
 /* ---------------- */
 /* ---- FOOTER ---- */
@@ -507,6 +512,11 @@ footer {
 
     .img-horizontal-futuroscope {
         width: 74.7%;
+        height: auto;
+    }
+
+    .img-vertical-disney19-1 {
+        width: 66.3%;
         height: auto;
     }
 }
