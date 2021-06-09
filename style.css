@@ -305,13 +305,18 @@ h2 {
     display: none;
 }
 
-.img-horizontal {
-    width: 100%;
+.img-horizontal-nikon {
+    max-width: 100%;
     height: auto;
 }
 
-.img-vertical {
-    width: 50%;
+.img-vertical-nikon {
+    width: 44.1%;
+    height: auto;
+}
+
+.img-vertical-BGF {
+    width: 44.1%;
     height: auto;
 }
 
@@ -460,13 +465,18 @@ footer {
         font-weight: bold;
     }
 
-    .img-horizontal {
+    .img-horizontal-nikon {
         width: 75%;
         height: auto;
     }
+
+    .img-vertical-nikon {
+        width: 33.1%;
+        height: auto;
+    }
     
-    .img-vertical {
-        width: 33%;
+    .img-vertical-BGF {
+        width: 37.35%;
         height: auto;
     }
 }
