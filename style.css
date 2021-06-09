@@ -200,6 +200,10 @@ h2 {
     font-size: 2.5em;
 }
 
+.intro-small {
+    margin-bottom: 80px;
+}
+
 
 /* ----------------- */
 /* ---- ARTICLE ---- */
@@ -316,10 +320,13 @@ footer {
 }
 
 .bottom-fixe {
-    position: absolute;
+    position: fixed;
+    left: 0;
+    right: 0;
     bottom: 0;
+    width: 100%;
     background-color: #f8f9fa;
-}
+  }
 
 
 /* ----------------------- */
@@ -456,5 +463,20 @@ footer {
 @media all and (max-width: 575px) {
     .article_intro {
         max-width: 95%;
+    }
+
+    .mdp-small {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .input-small {
+        width: 100%;
+    }
+
+    .btn-mdp {
+        margin-left: 0!important;
+        margin-top: 20px;
     }
 }
