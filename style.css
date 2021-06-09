@@ -320,13 +320,18 @@ h2 {
     height: auto;
 }
 
-.img-vertical-beauval {
+.img-horizontal-beauval {
     width: 88.5%;
     height: auto;
 }
 
-.img-vertical-megeve {
+.img-vertical-face {
     width: 49.3%;
+    height: auto;
+}
+
+.img-horizontal-futuroscope {
+    width: 99.6%;
     height: auto;
 }
 
@@ -490,13 +495,18 @@ footer {
         height: auto;
     }
 
-    .img-vertical-beauval {
+    .img-horizontal-beauval {
         width: 66.4%;
         height: auto;
     }
 
-    .img-vertical-megeve {
+    .img-vertical-face {
         width: 37%;
+        height: auto;
+    }
+
+    .img-horizontal-futuroscope {
+        width: 74.7%;
         height: auto;
     }
 }
@@ -528,5 +538,12 @@ footer {
     .btn-mdp {
         margin-left: 0!important;
         margin-top: 20px;
+    }
+}
+
+@media all and (min-width: 576px) {
+    
+    #carouselExampleIndicators {
+        width: 75%;
     }
 }
