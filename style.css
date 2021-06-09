@@ -305,6 +305,16 @@ h2 {
     display: none;
 }
 
+.img-horizontal {
+    width: 100%;
+    height: auto;
+}
+
+.img-vertical {
+    width: 50%;
+    height: auto;
+}
+
 
 /* ---------------- */
 /* ---- FOOTER ---- */
@@ -448,6 +458,16 @@ footer {
     
     .submenu li:hover a {
         font-weight: bold;
+    }
+
+    .img-horizontal {
+        width: 75%;
+        height: auto;
+    }
+    
+    .img-vertical {
+        width: 33%;
+        height: auto;
     }
 }
 
