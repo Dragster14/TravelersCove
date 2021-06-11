@@ -340,6 +340,16 @@ h2 {
     height: auto;
 }
 
+.img-horizontal-canon {
+    width: 88.6%;
+    height: auto;
+}
+
+.img-vertical-canon {
+    width: 49.84%;
+    height: auto;
+}
+
 
 /* ---------------- */
 /* ---- FOOTER ---- */
@@ -517,6 +527,16 @@ footer {
 
     .img-vertical-disney19-1 {
         width: 66.3%;
+        height: auto;
+    }
+
+    .img-horizontal-canon {
+        width: 66.4%;
+        height: auto;
+    }
+    
+    .img-vertical-canon {
+        width: 37.35%;
         height: auto;
     }
 }
