@@ -355,6 +355,16 @@ h2 {
     height: auto;
 }
 
+.img-horizontal-nouvelan2019-1 {
+    width: 118.07%;
+    height: auto;
+}
+
+.img-horizontal-nouvelan2019-2 {
+    width: 95.92%;
+    height: auto;
+}
+
 
 /* ---------------- */
 /* ---- FOOTER ---- */
@@ -547,6 +557,16 @@ footer {
 
     .img-horizontal-noel2018 {
         width: 88.55%;
+        height: auto;
+    }
+
+    .img-horizontal-nouvelan2019-1 {
+        width: 88.56%;
+        height: auto;
+    }
+
+    .img-horizontal-nouvelan2019-2 {
+        width: 71.95%;
         height: auto;
     }
 }
