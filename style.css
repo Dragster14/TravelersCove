@@ -350,6 +350,11 @@ h2 {
     height: auto;
 }
 
+.img-horizontal-noel2018 {
+    width: 118.08%;
+    height: auto;
+}
+
 
 /* ---------------- */
 /* ---- FOOTER ---- */
@@ -537,6 +542,11 @@ footer {
     
     .img-vertical-canon {
         width: 37.35%;
+        height: auto;
+    }
+
+    .img-horizontal-noel2018 {
+        width: 88.55%;
         height: auto;
     }
 }
