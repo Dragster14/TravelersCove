@@ -10,6 +10,7 @@ function mdp() {
         document.getElementById('article-mdp').classList.add('article_mdp');
         document.getElementById('article-intro').classList.remove('article_mdp');
         document.getElementById('article-video').classList.remove('article_mdp');
+        document.getElementById('article-photos').classList.remove('article_mdp');
         document.getElementById('footer-mdp').classList.remove('bottom-fixe');
     } else {
         document.getElementById('mdp').value = "";
