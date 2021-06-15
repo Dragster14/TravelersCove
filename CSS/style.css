@@ -26,7 +26,7 @@
 /* Police BTTTRIAL (Sea of Thieves) */
 @font-face {
     font-family: 'sot';
-    src: url('..\ressources/police/BTTTRIAL.otf') format('OpenType');
+    src: url('../ressources/police/BTTTRIAL.otf') format('OpenType');
 }
 
 
