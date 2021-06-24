@@ -319,15 +319,6 @@ footer {
     font-size: 0.8em;
 }
 
-.bottom-fixe {
-    position: fixed;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #f8f9fa;
-  }
-
 
 /* ----------------------- */
 /* ---- MEDIA QUERIES ---- */
@@ -485,5 +476,17 @@ footer {
     
     #carouselExampleIndicators {
         width: 75%;
+    }
+}
+
+@media all and (min-height: 650px) {
+    
+    .bottom-fixe {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #f8f9fa;
     }
 }
