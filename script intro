@@ -1,26 +1,23 @@
-<script type="text/javascript">
-        
+function intro() {
+    let bg = document.getElementById('bg');
+    let text = document.getElementById('text');
+    if (sessionStorage.getItem('Intro') != 1) {
+        sessionStorage.setItem('Intro', '1');
+        text.style.display = "none";
 
-        function intro() {
-            let bg = document.getElementById('bg');
-            let text = document.getElementById('text');
-            if (sessionStorage.getItem('Intro') != 1) {
-                sessionStorage.setItem('Intro', '1');
-                text.style.display = "none";
+    } else {
+        bg.style.display = "none";
+    }
+}
 
-            } else {
-                bg.style.display = "none";
-            }
-        }
 
-    </script>
-
-    setTimeout(function() {
-                window.location.reload(1);
-            }, 3000);
+setTimeout(function() {
+    window.location.reload(1);
+}, 3000);
 
 
 
+/*
 <script>
 
             function intro() {
@@ -40,3 +37,4 @@
 </script>
 
 <body onload="intro()">
+*/

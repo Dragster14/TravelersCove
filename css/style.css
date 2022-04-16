@@ -57,6 +57,37 @@ body {
     font-size: 1.3em;
 }
 
+/* Bouton retour en haut de page */
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 80px; /* Place the button at the bottom of the page */
+    right: 20px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: solid 2px #f8f9fa; /* Add white borders */
+    outline: none; /* Remove outline */
+    background-color: #0D2E41; /* Set a background color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 5px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    animation: opacity 2000ms;
+}
+
+@keyframes opacity {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#myBtn:hover {
+    border: solid 2px #F8AF2C; /* Change color of border on hover */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; /* Add a box-shadow */
+}
+
 
 /* ---------------- */
 /* ---- HEADER ---- */
