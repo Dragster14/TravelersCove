@@ -63,7 +63,7 @@ body {
     position: fixed; /* Fixed/sticky position */
     bottom: 80px; /* Place the button at the bottom of the page */
     right: 20px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
+    z-index: 98; /* Make sure it does not overlap */
     border: solid 2px #f8f9fa; /* Add white borders */
     outline: none; /* Remove outline */
     background-color: #0D2E41; /* Set a background color */
@@ -86,6 +86,105 @@ body {
 #myBtn:hover {
     border: solid 2px #F8AF2C; /* Change color of border on hover */
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; /* Add a box-shadow */
+}
+
+/* The Modal (background) - lightbox images */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 99;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    margin: auto;
+    padding: 0;
+    width: 60%;
+    max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+    color: #f8f9fa;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.close:hover, .close:focus {
+    color: #FA6135;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: #f8f9fa;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    text-decoration: none;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #FA6135;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f8f9fa;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+  
+@keyframes zoom {
+    from {
+        transform:scale(0)
+    }
+    to {
+        transform:scale(1)
+    }
 }
 
 
@@ -335,6 +434,90 @@ h2 {
 
 .article_mdp {
     display: none;
+}
+
+/* ---------------- */
+/* ---- PHOTOS ---- */
+/* ---------------- */
+
+.image-container {
+    margin: auto;
+    width: 790px;
+    height: 490px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.bloc1, .bloc2, .bloc3, .bloc4, .bloc5, .bloc6, .bloc7, .bloc8, .bloc9, .bloc10, .bloc11, .bloc12, .losange {
+    border: solid 4px #f8f9fa;
+    margin: 2px;
+    cursor: pointer;
+}
+.bloc1 {
+    width: 266px;
+    height: 159px;
+}
+.bloc2 {
+    width: 240px;
+    height: 136px;
+}
+.bloc3 {
+    width: 106px;
+    height: 136px;
+}
+.bloc4 {
+    width: 161px;
+    height: 136px;
+}
+.bloc5, .bloc6 {
+    width: 130px;
+    height: 181px;
+}
+.bloc7 {
+    width: 327px;
+    height: 205px;
+}
+.bloc8 {
+    width: 186px;
+    height: 295px;
+}
+.bloc7, .bloc8 {
+    margin-top: -21px;
+}
+.bloc9, .bloc10, .bloc11 {
+    margin-top: -88px;
+}
+.bloc9 {
+    width: 266px;
+    height: 136px;
+}
+.bloc10 {
+    width: 140px;
+    height: 136px;
+}
+.bloc11 {
+    width: 181px;
+    height: 136px;
+}
+.bloc12 {
+    width: 186px;
+    height: 46px;
+    cursor: auto!important;
+    color: #f8f9fa;
+    font-size: 1.2em;
+    text-align: center;
+    padding-top: 8px;
+}
+.losange {
+    width: 160px;
+    height: 160px;
+    transform: rotate(45deg);
+    position: absolute;
+    margin-top: 105px;
+    margin-left: 225px;
+}
+.image-bordures:hover {
+    border: solid 2px #F8AF2C;
 }
 
 
