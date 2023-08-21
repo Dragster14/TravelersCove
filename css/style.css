@@ -585,6 +585,10 @@ footer {
         border-top: solid 5px #FA6135;
         background-color: rgba(250, 97, 53, 0.15);
     }
+
+    .photos-901px {
+        display: none;
+    }
     
 }
 
@@ -655,6 +659,10 @@ footer {
     
     .submenu li:hover a {
         font-weight: bold;
+    }
+
+    .photos-900px {
+        display: none;
     }
 }
 
