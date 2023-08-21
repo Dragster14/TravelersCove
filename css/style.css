@@ -452,6 +452,7 @@ h2 {
     border: solid 4px #f8f9fa;
     margin: 2px;
     cursor: pointer;
+    overflow: hidden;
 }
 .bloc1 {
     width: 266px;
@@ -517,7 +518,7 @@ h2 {
     margin-left: 225px;
 }
 .image-bordures:hover {
-    border: solid 2px #F8AF2C;
+    border: solid 4px #F8AF2C;
 }
 
 
